@@ -1,0 +1,7 @@
+/* CSS for Practice Set 3 - Problem 01 */
+#box {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
