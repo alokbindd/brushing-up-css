@@ -3,17 +3,20 @@ body{
 }
 
 div {
-    height: 100px;
+    height:100px;
     width: 200px;
     display: inline-block;
     border: 2px black solid;
 }
 
 #container {
-    width: 800px;
-    height: 200px;
+    width:500px;
+    height: 600px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
+    justify-content:center; 
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 #box1 {
