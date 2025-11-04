@@ -1,1 +1,47 @@
 /* CSS for Practice Set 4 - Problem 01 */
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+#nav-bar {
+    height:60px;
+    background-color: #0f1111;
+}
+
+#logo {
+    color: #f08804;
+    font-size: 25px;
+}
+
+a {
+    margin-right: 200px;
+    text-decoration: none;
+    color: white;
+}
+
+#searchbar{
+    margin-left: 200px;
+}
+
+button {
+    background-color: #f08804;
+}
+
+.boxes {
+    height: 100px;
+    width: 100px;
+    border: 2px black solid;
+    background-color: rgba(255, 00 , 00, 1);
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    background-color: #0f1111;
+    color: white;
+}
+
+#content {
+    height: 700px;
+}

@@ -1,1 +1,40 @@
-/* CSS for Practice Set 4 - Problem 03 */
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    border: 2px orange solid;
+}
+
+#box1 {
+    background-color: red;
+    position: absolute;
+    left:20px;
+    z-index: 2;
+}
+#box2 {
+    background-color: black;
+    position: absolute;
+    left:40px;
+    z-index: 1;
+
+}
+#box3 {
+    background-color: blue;
+    position: absolute;
+    left:60px;
+    z-index: 0;
+}
+#box4 {
+    background-color:green;
+    position: absolute;
+    left:80px;
+    z-index: -1;
+}
+#box5 {
+    background-color: pink;
+    position: absolute;
+    left:100px;
+    z-index: -2;
+}

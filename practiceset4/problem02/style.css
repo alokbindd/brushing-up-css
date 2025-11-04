@@ -1,1 +1,47 @@
-/* CSS for Practice Set 4 - Problem 02 */
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 2px orange solid;
+    color: white;
+    display: inline-block;
+}
+
+#box1 {
+    background-color: red;
+    position: static;
+}
+
+#box2 {
+    background-color: green;
+    position: relative;
+    top: 20px;
+}
+
+#box3 {
+    background-color: blue;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+
+}
+
+#box4 {
+    background-color: black;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 100vw;
+}
+
+#box5 {
+    background-color: pink;
+    position: sticky;
+    height: 50px;
+    top: 0px;
+    right: 0%;
+}

@@ -1,1 +1,15 @@
 /* CSS for Practice Set 5 - Problem 02 */
+div{
+    position: fixed;
+    height: 400px;
+    width: 600px;
+    right: 0%;
+    top: 0;
+    background-image: url('https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170');
+    background-size: cover;
+    color: white;
+}
+
+p {
+    font-size: 25px;
+}
