@@ -1,1 +1,44 @@
 /* CSS for Practice Set 6 - Problem 02 */
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+#navbar {
+    height: 60px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+
+#navlinks {
+    list-style-type: none;
+    width: inherit;
+    padding: 0%;
+    margin: 0%;
+    /* padding: 10px 10px 10px 10px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navitems {
+    display: inline;
+}
+
+#outer {
+    height: 400px;
+    width: 100vw;
+    background-color: rgb(255, 98, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner {
+    height: 200px;
+    width: 200px;
+    background-color: hotpink;
+    align-self: b;
+}
