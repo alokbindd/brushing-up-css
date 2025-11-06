@@ -1,0 +1,29 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    text-align: center;
+}
+div { 
+    height: 100px;
+    width: 100px;
+    background-color: #016B61;
+}
+
+div:hover {
+    background-color: #FFFD8F;
+    transform: scaleX(30deg);
+    /* transform: skew(-80deg); */
+}

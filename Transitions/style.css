@@ -20,6 +20,7 @@ div:hover {
     background-color: black;
     color: gold;
     font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
     font-size: 20px;
     width: 100vw;
     display: flex;
