@@ -24,6 +24,5 @@ div {
 
 div:hover {
     background-color: #FFFD8F;
-    transform: scaleX(30deg);
-    /* transform: skew(-80deg); */
+    transform: skew(80deg);
 }
