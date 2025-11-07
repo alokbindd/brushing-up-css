@@ -1,1 +1,26 @@
-/* CSS for Practice Set 8 - Problem 01 */
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    /* background-color: blue; */
+    border: 10px aqua solid;
+    border-left: 10px black solid;
+    border-radius: 50%;
+    animation: Spin 2s linear 0s infinite normal;
+}
+
+@keyframes Spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
